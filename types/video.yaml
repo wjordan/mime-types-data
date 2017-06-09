@@ -2,7 +2,7 @@
 - !ruby/object:MIME::Type
   content-type: video/1d-interleaved-parityfec
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc6015
     template:
@@ -16,7 +16,7 @@
   extensions:
   - 3gp
   - 3gpp
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc3839
     - rfc6381
@@ -26,7 +26,7 @@
 - !ruby/object:MIME::Type
   content-type: video/3gpp-tt
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4396
     template:
@@ -40,7 +40,7 @@
   extensions:
   - 3g2
   - 3gpp2
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4393
     - rfc6381
@@ -50,7 +50,7 @@
 - !ruby/object:MIME::Type
   content-type: video/BMPEG
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc3555
     template:
@@ -59,7 +59,7 @@
 - !ruby/object:MIME::Type
   content-type: video/BT656
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc3555
     template:
@@ -68,7 +68,7 @@
 - !ruby/object:MIME::Type
   content-type: video/CelB
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc3555
     template:
@@ -87,7 +87,7 @@
   encoding: base64
   extensions:
   - dv
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc6469
     template:
@@ -96,7 +96,7 @@
 - !ruby/object:MIME::Type
   content-type: video/encaprtp
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc6849
     template:
@@ -105,7 +105,7 @@
 - !ruby/object:MIME::Type
   content-type: video/example
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4735
     template:
@@ -126,7 +126,7 @@
   encoding: base64
   extensions:
   - h261
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4587
     template:
@@ -139,7 +139,7 @@
   encoding: base64
   extensions:
   - h263
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc3555
     template:
@@ -148,7 +148,7 @@
 - !ruby/object:MIME::Type
   content-type: video/H263-1998
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4629
     template:
@@ -157,7 +157,7 @@
 - !ruby/object:MIME::Type
   content-type: video/H263-2000
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4629
     template:
@@ -170,7 +170,7 @@
   encoding: base64
   extensions:
   - h264
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc6184
     template:
@@ -179,7 +179,7 @@
 - !ruby/object:MIME::Type
   content-type: video/H264-RCDO
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc6185
     template:
@@ -188,7 +188,7 @@
 - !ruby/object:MIME::Type
   content-type: video/H264-SVC
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc6190
     template:
@@ -197,7 +197,7 @@
 - !ruby/object:MIME::Type
   content-type: video/H265
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc7798
     template:
@@ -206,7 +206,7 @@
 - !ruby/object:MIME::Type
   content-type: video/iso.segment
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - David_Singer
     - ISO-IEC_JTC1
@@ -220,7 +220,7 @@
   encoding: base64
   extensions:
   - jpgv
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc3555
     template:
@@ -229,7 +229,7 @@
 - !ruby/object:MIME::Type
   content-type: video/jpeg2000
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc5371
     - rfc5372
@@ -253,7 +253,7 @@
   extensions:
   - mj2
   - mjp2
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc3745
     template:
@@ -262,7 +262,7 @@
 - !ruby/object:MIME::Type
   content-type: video/MP1S
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc3555
     template:
@@ -271,7 +271,7 @@
 - !ruby/object:MIME::Type
   content-type: video/MP2P
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc3555
     template:
@@ -282,7 +282,7 @@
   encoding: base64
   extensions:
   - ts
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc3555
     template:
@@ -299,7 +299,7 @@
   - f4v
   - f4p
   - mp4v
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4337
     - rfc6381
@@ -309,7 +309,7 @@
 - !ruby/object:MIME::Type
   content-type: video/MP4V-ES
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc6416
     template:
@@ -328,7 +328,7 @@
   - mpg
   - m1v
   - m2v
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc2045
     - rfc2046
@@ -336,7 +336,7 @@
 - !ruby/object:MIME::Type
   content-type: video/mpeg4-generic
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc3640
     template:
@@ -345,7 +345,7 @@
 - !ruby/object:MIME::Type
   content-type: video/MPV
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc3555
     template:
@@ -354,7 +354,7 @@
 - !ruby/object:MIME::Type
   content-type: video/nv
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4856
     template:
@@ -368,7 +368,7 @@
   extensions:
   - ogg
   - ogv
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc5334
     - rfc7845
@@ -378,14 +378,14 @@
 - !ruby/object:MIME::Type
   content-type: video/parityfec
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc5109
   registered: true
 - !ruby/object:MIME::Type
   content-type: video/pointer
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc2862
     template:
@@ -399,7 +399,7 @@
   extensions:
   - qt
   - mov
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc6381
     person:
@@ -410,7 +410,7 @@
 - !ruby/object:MIME::Type
   content-type: video/raptorfec
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc6682
     template:
@@ -419,14 +419,14 @@
 - !ruby/object:MIME::Type
   content-type: video/raw
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4175
   registered: true
 - !ruby/object:MIME::Type
   content-type: video/rtp-enc-aescm128
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - _3GPP
     template:
@@ -435,7 +435,7 @@
 - !ruby/object:MIME::Type
   content-type: video/rtploopback
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc6849
     template:
@@ -444,7 +444,7 @@
 - !ruby/object:MIME::Type
   content-type: video/rtx
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4588
     template:
@@ -453,7 +453,7 @@
 - !ruby/object:MIME::Type
   content-type: video/SMPTE292M
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc3497
     template:
@@ -462,7 +462,7 @@
 - !ruby/object:MIME::Type
   content-type: video/ulpfec
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc5109
     template:
@@ -471,7 +471,7 @@
 - !ruby/object:MIME::Type
   content-type: video/vc1
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4425
     template:
@@ -480,7 +480,7 @@
 - !ruby/object:MIME::Type
   content-type: video/vnd.CCTV
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Frank_Rottmann
     template:
@@ -494,7 +494,7 @@
   extensions:
   - uvh
   - uvvh
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Michael_A_Dolan
     template:
@@ -508,7 +508,7 @@
   extensions:
   - uvm
   - uvvm
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Michael_A_Dolan
     template:
@@ -517,7 +517,7 @@
 - !ruby/object:MIME::Type
   content-type: video/vnd.dece.mp4
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Michael_A_Dolan
     template:
@@ -531,7 +531,7 @@
   extensions:
   - uvp
   - uvvp
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Michael_A_Dolan
     template:
@@ -545,7 +545,7 @@
   extensions:
   - uvs
   - uvvs
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Michael_A_Dolan
     template:
@@ -559,7 +559,7 @@
   extensions:
   - uvv
   - uvvv
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Michael_A_Dolan
     template:
@@ -568,7 +568,7 @@
 - !ruby/object:MIME::Type
   content-type: video/vnd.directv.mpeg
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Nathan_Zerbe
     template:
@@ -577,7 +577,7 @@
 - !ruby/object:MIME::Type
   content-type: video/vnd.directv.mpeg-tts
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Nathan_Zerbe
     template:
@@ -586,7 +586,7 @@
 - !ruby/object:MIME::Type
   content-type: video/vnd.dlna.mpeg-tts
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Edwin_Heredia
     template:
@@ -597,10 +597,10 @@
   encoding: base64
   extensions:
   - dvb
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
-    - Peter_Siebert
     - Kevin_Murray
+    - Peter_Siebert
     template:
     - video/vnd.dvb.file
   registered: true
@@ -611,7 +611,7 @@
   encoding: base64
   extensions:
   - fvt
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Arild_Fuldseth
     template:
@@ -620,7 +620,7 @@
 - !ruby/object:MIME::Type
   content-type: video/vnd.hns.video
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Swaminathan
     template:
@@ -629,7 +629,7 @@
 - !ruby/object:MIME::Type
   content-type: video/vnd.iptvforum.1dparityfec-1010
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Shuji_Nakamura
     template:
@@ -638,7 +638,7 @@
 - !ruby/object:MIME::Type
   content-type: video/vnd.iptvforum.1dparityfec-2005
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Shuji_Nakamura
     template:
@@ -647,7 +647,7 @@
 - !ruby/object:MIME::Type
   content-type: video/vnd.iptvforum.2dparityfec-1010
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Shuji_Nakamura
     template:
@@ -656,7 +656,7 @@
 - !ruby/object:MIME::Type
   content-type: video/vnd.iptvforum.2dparityfec-2005
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Shuji_Nakamura
     template:
@@ -665,7 +665,7 @@
 - !ruby/object:MIME::Type
   content-type: video/vnd.iptvforum.ttsavc
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Shuji_Nakamura
     template:
@@ -674,7 +674,7 @@
 - !ruby/object:MIME::Type
   content-type: video/vnd.iptvforum.ttsmpeg2
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Shuji_Nakamura
     template:
@@ -683,7 +683,7 @@
 - !ruby/object:MIME::Type
   content-type: video/vnd.motorola.video
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Tom_McGinty
     template:
@@ -692,7 +692,7 @@
 - !ruby/object:MIME::Type
   content-type: video/vnd.motorola.videop
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Tom_McGinty
     template:
@@ -706,7 +706,7 @@
   extensions:
   - mxu
   - m4u
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Heiko_Recktenwald
     template:
@@ -719,7 +719,7 @@
   encoding: base64
   extensions:
   - pyv
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Steve_DiAcetis
     template:
@@ -730,7 +730,7 @@
   encoding: base64
   extensions:
   - nim
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Petteri_Kangaslampi
     template:
@@ -739,7 +739,7 @@
 - !ruby/object:MIME::Type
   content-type: video/vnd.nokia.videovoip
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Nokia
     template:
@@ -751,7 +751,7 @@
   extensions:
   - mp4
   - m4v
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - John_Clark
     template:
@@ -760,7 +760,7 @@
 - !ruby/object:MIME::Type
   content-type: video/vnd.radgamettools.bink
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Henrik_Andersson
     template:
@@ -769,7 +769,7 @@
 - !ruby/object:MIME::Type
   content-type: video/vnd.radgamettools.smacker
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Henrik_Andersson
     template:
@@ -780,7 +780,7 @@
   encoding: base64
   extensions:
   - s11
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - David_Petersen
     template:
@@ -792,7 +792,7 @@
   extensions:
   - smpg
   - s14
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - David_Petersen
     template:
@@ -804,7 +804,7 @@
   extensions:
   - sswf
   - ssw
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - David_Petersen
     template:
@@ -817,7 +817,7 @@
   - smov
   - smo
   - s1q
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - David_Petersen
     template:
@@ -831,7 +831,7 @@
   extensions:
   - uvu
   - uvvu
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Michael_A_Dolan
     template:
@@ -845,7 +845,7 @@
   extensions:
   - viv
   - vivo
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - John_Wolfe
     template:
@@ -854,9 +854,9 @@
 - !ruby/object:MIME::Type
   content-type: video/VP8
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
-    draft:
-    - RFC-ietf-payload-vp8-17
+  xrefs:
+    rfc:
+    - rfc7741
     template:
     - video/VP8
   registered: true
